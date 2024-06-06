@@ -1,0 +1,29 @@
+/* ranglarni 4 xil usulda berish mumkin */
+/* 1- rangni nomi  masalan: red, black, green */
+/* 2-HEX - Hexadecimal son va harflar aralashmasidan xosil bo'lgan 6 xonali kod '#' */
+/* 3-RGBA - Red Green Blue Alpha - 3 ta rang aralashmasi, Alpha esa uning shaffof yoki shaffof emasligini ta'minlab beradi */
+/* 4 - RGB - Red Green Blue , oraliq qiymati 0-255*/
+/* font-weight - textni qalin yoki nozik bo'lishini belgilaydi, chegarasi 100-900 gacha */
+
+/* border - ramka hosil qilish 1-qiymat uning o'lchami, turi, rangi
+solid - to'liq chiziq
+dashed - uzuk-uzuk chiziq
+dotted - nuqtali
+double - ikkita chiziq */
+/* border-radius - ramkani 4 ta tomonidan belgilangan qiymatda qirqib oladi */
+/* background-color - elementni orqasiga rang berish */
+
+h2 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 900;
+    border: 5px  solid red;
+    border-radius: 20px;
+    height: 100px;
+    /* background-color: chartreuse; */
+}
+
+p {
+    color: green;
+    font-size: 14px;
+}
